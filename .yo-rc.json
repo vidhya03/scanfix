@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.softwareag.vidhya"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "scanfix",
+    "packageName": "com.softwareag.vidhya",
+    "packageFolder": "com/softwareag/vidhya",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzQ5NDlkYTIzNzNlOTVhYzI4NDFhZDY4YWQwMTExZTY1M2JhMjZhYTI5ZDlkYmE2MDJjNGU5NWUxODhlMWUxZjBiOWVhNDMzODc0MmI4YTMwOGJhOWU2OGQzMDM3YmI5YjBhYTFhMDJmNGVkNzFlNWI1NWIwNjI3ZGVlZGVmMGQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1607062554646,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
