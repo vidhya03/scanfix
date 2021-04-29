@@ -1,0 +1,40 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.liquibase:liquibase-core
+    versions:
+    - 4.2.2
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.3.3
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ts-loader
+    versions:
+    - 8.0.14
+    - 8.0.16
+    - 8.0.17
+  - dependency-name: webpack-bundle-analyzer
+    versions:
+    - 4.4.0
+  - dependency-name: html-webpack-plugin
+    versions:
+    - 4.5.1
+  - dependency-name: browser-sync
+    versions:
+    - 2.26.13
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
